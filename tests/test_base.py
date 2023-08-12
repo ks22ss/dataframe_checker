@@ -1,5 +1,5 @@
-from project_name.base import NAME
+from dataframe_checker.base import NAME
 
 
 def test_base():
-    assert NAME == "project_name"
+    assert NAME == "dataframe_checker"
