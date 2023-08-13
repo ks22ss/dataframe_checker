@@ -31,10 +31,10 @@ def main():  # pragma: no cover
     }
 
     df = pd.DataFrame(data)
-
+    print(df)
     columns_to_check = 'A'
     result = DataframeChecker.report_outliers(df=df, column=columns_to_check, windows_size=2, show_all=False)
-
+    print(df)
 
 
 if __name__ == "__main__":  # pragma: no cover
